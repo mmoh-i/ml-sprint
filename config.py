@@ -4,6 +4,6 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-BASE_URL = os.getenv("OPEN_MATEO_BASE_URL")
+BASE_URL = os.getenv("OPEN_METEO_BASE_URL")
 LATITUDE = float(os.getenv("STATION_LATITUDE"))
-LONGTITUDE = float(os.getenv("STATION_LONGTITUDE"))
+LONGITUDE = float(os.getenv("STATION_LONGITUDE"))
